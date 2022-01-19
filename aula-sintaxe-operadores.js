@@ -43,6 +43,7 @@ function criaPrimeiraFrase(num1, num2) {
     return `Os números ${num1} e ${num2} ${saoIguais}são iguais.`;
 }
 
+// segunda frase: ex.: Sua soma é 3, que é menor que 10 e menor que 20.
 function criaSegundaFrase(num1, num2) {
     const soma = num1 + num2;
 
